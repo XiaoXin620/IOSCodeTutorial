@@ -13,6 +13,7 @@
 		1D199DF626AD6950004125C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D199DF526AD6950004125C3 /* Preview Assets.xcassets */; };
 		1DAD63CB26ADB290006665AC /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD63CA26ADB290006665AC /* MenuView.swift */; };
 		1DAD63CD26ADBA80006665AC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD63CC26ADBA80006665AC /* Home.swift */; };
+		1DAD63CF26ADC4AC006665AC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD63CE26ADC4AC006665AC /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1D199DF726AD6950004125C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DAD63CA26ADB290006665AC /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		1DAD63CC26ADBA80006665AC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1DAD63CE26ADC4AC006665AC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				1D199DF026AD694F004125C3 /* ContentView.swift */,
 				1DAD63CA26ADB290006665AC /* MenuView.swift */,
 				1DAD63CC26ADBA80006665AC /* Home.swift */,
+				1DAD63CE26ADC4AC006665AC /* HomeView.swift */,
 				1D199DF226AD6950004125C3 /* Assets.xcassets */,
 				1D199DF726AD6950004125C3 /* Info.plist */,
 				1D199DF426AD6950004125C3 /* Preview Content */,
@@ -147,6 +150,7 @@
 				1D199DF126AD694F004125C3 /* ContentView.swift in Sources */,
 				1DAD63CB26ADB290006665AC /* MenuView.swift in Sources */,
 				1DAD63CD26ADBA80006665AC /* Home.swift in Sources */,
+				1DAD63CF26ADC4AC006665AC /* HomeView.swift in Sources */,
 				1D199DEF26AD694F004125C3 /* NothingCodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
