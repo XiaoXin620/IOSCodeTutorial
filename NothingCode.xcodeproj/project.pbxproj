@@ -11,9 +11,13 @@
 		1D199DF126AD694F004125C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D199DF026AD694F004125C3 /* ContentView.swift */; };
 		1D199DF326AD6950004125C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D199DF226AD6950004125C3 /* Assets.xcassets */; };
 		1D199DF626AD6950004125C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D199DF526AD6950004125C3 /* Preview Assets.xcassets */; };
+		1D65F3CF26AF148A00B97CBB /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D65F3CE26AF148A00B97CBB /* UpdateDetail.swift */; };
+		1D65F3D126AF169A00B97CBB /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D65F3D026AF169A00B97CBB /* UpdateStore.swift */; };
+		1D65F3D326AF1A3A00B97CBB /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D65F3D226AF1A3A00B97CBB /* TabBar.swift */; };
 		1DAD63CB26ADB290006665AC /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD63CA26ADB290006665AC /* MenuView.swift */; };
 		1DAD63CD26ADBA80006665AC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD63CC26ADBA80006665AC /* Home.swift */; };
 		1DAD63CF26ADC4AC006665AC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD63CE26ADC4AC006665AC /* HomeView.swift */; };
+		1DAE1A0226AF0B6C00E358E0 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAE1A0126AF0B6C00E358E0 /* UpdateList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +27,13 @@
 		1D199DF226AD6950004125C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D199DF526AD6950004125C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D199DF726AD6950004125C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D65F3CE26AF148A00B97CBB /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		1D65F3D026AF169A00B97CBB /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		1D65F3D226AF1A3A00B97CBB /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		1DAD63CA26ADB290006665AC /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		1DAD63CC26ADBA80006665AC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		1DAD63CE26ADC4AC006665AC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1DAE1A0126AF0B6C00E358E0 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				1DAD63CA26ADB290006665AC /* MenuView.swift */,
 				1DAD63CC26ADBA80006665AC /* Home.swift */,
 				1DAD63CE26ADC4AC006665AC /* HomeView.swift */,
+				1D65F3D226AF1A3A00B97CBB /* TabBar.swift */,
+				1D65F3CE26AF148A00B97CBB /* UpdateDetail.swift */,
+				1DAE1A0126AF0B6C00E358E0 /* UpdateList.swift */,
+				1D65F3D026AF169A00B97CBB /* UpdateStore.swift */,
 				1D199DF226AD6950004125C3 /* Assets.xcassets */,
 				1D199DF726AD6950004125C3 /* Info.plist */,
 				1D199DF426AD6950004125C3 /* Preview Content */,
@@ -147,8 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D65F3D326AF1A3A00B97CBB /* TabBar.swift in Sources */,
+				1D65F3CF26AF148A00B97CBB /* UpdateDetail.swift in Sources */,
 				1D199DF126AD694F004125C3 /* ContentView.swift in Sources */,
 				1DAD63CB26ADB290006665AC /* MenuView.swift in Sources */,
+				1DAE1A0226AF0B6C00E358E0 /* UpdateList.swift in Sources */,
+				1D65F3D126AF169A00B97CBB /* UpdateStore.swift in Sources */,
 				1DAD63CD26ADBA80006665AC /* Home.swift in Sources */,
 				1DAD63CF26ADC4AC006665AC /* HomeView.swift in Sources */,
 				1D199DEF26AD694F004125C3 /* NothingCodeApp.swift in Sources */,
