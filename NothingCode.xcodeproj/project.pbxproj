@@ -18,6 +18,7 @@
 		1DAD63CD26ADBA80006665AC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD63CC26ADBA80006665AC /* Home.swift */; };
 		1DAD63CF26ADC4AC006665AC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD63CE26ADC4AC006665AC /* HomeView.swift */; };
 		1DAE1A0226AF0B6C00E358E0 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAE1A0126AF0B6C00E358E0 /* UpdateList.swift */; };
+		1DC7054826B05DAD005F4AFF /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC7054726B05DAD005F4AFF /* RingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		1DAD63CC26ADBA80006665AC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		1DAD63CE26ADC4AC006665AC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1DAE1A0126AF0B6C00E358E0 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		1DC7054726B05DAD005F4AFF /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				1DAD63CA26ADB290006665AC /* MenuView.swift */,
 				1DAD63CC26ADBA80006665AC /* Home.swift */,
 				1DAD63CE26ADC4AC006665AC /* HomeView.swift */,
+				1DC7054726B05DAD005F4AFF /* RingView.swift */,
 				1D65F3D226AF1A3A00B97CBB /* TabBar.swift */,
 				1D65F3CE26AF148A00B97CBB /* UpdateDetail.swift */,
 				1DAE1A0126AF0B6C00E358E0 /* UpdateList.swift */,
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC7054826B05DAD005F4AFF /* RingView.swift in Sources */,
 				1D65F3D326AF1A3A00B97CBB /* TabBar.swift in Sources */,
 				1D65F3CF26AF148A00B97CBB /* UpdateDetail.swift in Sources */,
 				1D199DF126AD694F004125C3 /* ContentView.swift in Sources */,

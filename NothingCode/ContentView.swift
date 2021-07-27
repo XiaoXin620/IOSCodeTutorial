@@ -89,7 +89,7 @@ struct ContentView: View {
                         }
                 )
             
-            BottomView()
+            BottomView(show: $showCard)
                 .offset(x: 0, y: showCard ? 360 : 1000)
                 .offset(y: bottomState.height)
                 .blur(radius: show ? 20 : 0)
@@ -188,6 +188,9 @@ struct TitleView: View {
 }
 
 struct BottomView: View {
+    @Binding var show: Bool
+    
+    
     var body: some View {
         VStack(spacing: 20.0) {
             Rectangle()
@@ -199,6 +202,26 @@ struct BottomView: View {
                 .multilineTextAlignment(.center)
                 .font(.subheadline)
                 .lineSpacing(4)
+            
+            HStack(spacing: 20.0) {
+                // 好像有个动画bug
+                RingView(color1: #colorLiteral(red: 0.1411764771, green: 0.3960784376, blue: 0.5647059083, alpha: 1), color2: #colorLiteral(red: 0.1764705926, green: 0.01176470611, blue: 0.5607843399, alpha: 1), width: 88, height: 88, percent: 78, show: $show)
+                
+                VStack(alignment: .leading, spacing: 8.0) {
+                    Text("SwiftUI").fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    Text("12 of 12 sections completed\n10 hours spent so fa")
+                        .font(.footnote)
+                        .foregroundColor(.gray)
+                        .lineSpacing(4)
+                }
+                .padding(20)
+                .background(Color.white)
+                .cornerRadius(20)
+                .shadow(color: Color.black.opacity(0.2), radius: 20, x: 0, y: 10)
+                
+            }
+            
+            
             
             Spacer()
         }
