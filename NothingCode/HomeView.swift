@@ -15,7 +15,8 @@ struct HomeView: View {
         VStack {
             HStack {
                 Text("Watching")
-                    .font(.system(size: 28, weight: .bold))
+//                    .font(.system(size: 28, weight: .bold))
+                    .modifier(CustomFontModifier(size: 28)) // 使用自定义字体
                 
                 Spacer()
                 
@@ -39,22 +40,11 @@ struct HomeView: View {
             }
             .padding(.horizontal)
             
-            HStack(spacing: 12.0) {
-                RingView(color1: #colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1), color2: #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1), width: 44, height: 44, percent: 68, show: .constant(true))
-                VStack(alignment: .leading, spacing: 4.0) {
-                    Text("6 minutes left")
-                        .font(.subheadline)
-                        .fontWeight(.bold)
-                    Text("Watched 10 mins today")
-                        .font(.caption)
-                }
-                
+            ScrollView(.horizontal, showsIndicators: false) {
+                WatchRingView()
+                    .padding(.horizontal, 30)
+                    .padding(.bottom, 30)
             }
-            .padding(8)
-            .background(Color.white)
-            .cornerRadius(20)
-            .shadow(color: Color.black.opacity(0.2), radius: 20, x: 0, y: 20)
-            .shadow(color: Color.black.opacity(0.1), radius: 1, x: 0, y: 1)
             
             
             // showsIndicators 滚动指示器显示
@@ -137,3 +127,45 @@ let sectionData = [
     Section(title: "Build a SwiftUI app", text: "20 Section", logo: "Logo2", image: Image(uiImage: #imageLiteral(resourceName: "Card1")), color: Color("card2")),
     Section(title: "SwiftUI Advanced", text: "20 Section", logo: "Logo3", image: Image("Card3"), color: Color("card3"))
 ]
+
+struct WatchRingView: View {
+    var body: some View {
+        HStack(spacing: 30.0) {
+            HStack(spacing: 12.0) {
+                RingView(color1: #colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1), color2: #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1), width: 44, height: 44, percent: 68, show: .constant(true))
+                VStack(alignment: .leading, spacing: 4.0) {
+                    Text("6 minutes left")
+                        .bold()
+                        .modifier(FontModifier(style: .subheadline))
+                    Text("Watched 10 mins today")
+                        .modifier(FontModifier(style: .caption))
+                }
+                .modifier(FontModifier())
+                
+            }
+            .padding(8)
+            .background(Color.white)
+            .cornerRadius(20)
+            .modifier(ShadowModifier())// 自定义修饰符号
+            
+            
+            HStack(spacing: 12.0) {
+                RingView(color1: #colorLiteral(red: 0.2745098174, green: 0.4862745106, blue: 0.1411764771, alpha: 1), color2: #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1), width: 32, height: 32, percent: 46, show: .constant(true))
+                
+            }
+            .padding(8)
+            .background(Color.white)
+            .cornerRadius(20)
+            .modifier(ShadowModifier())
+            
+            HStack(spacing: 12.0) {
+                RingView(color1: #colorLiteral(red: 0.5725490451, green: 0, blue: 0.2313725501, alpha: 1), color2: #colorLiteral(red: 0.9411764741, green: 0.4980392158, blue: 0.3529411852, alpha: 1), width: 32, height: 32, percent: 23, show: .constant(true))
+                
+            }
+            .padding(8)
+            .background(Color.white)
+            .cornerRadius(20)
+            .modifier(ShadowModifier())
+        }
+    }
+}
