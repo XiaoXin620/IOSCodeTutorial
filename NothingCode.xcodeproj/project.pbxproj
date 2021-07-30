@@ -47,6 +47,7 @@
 		1DAD63CD26ADBA80006665AC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD63CC26ADBA80006665AC /* Home.swift */; };
 		1DAD63CF26ADC4AC006665AC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD63CE26ADC4AC006665AC /* HomeView.swift */; };
 		1DAE1A0226AF0B6C00E358E0 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAE1A0126AF0B6C00E358E0 /* UpdateList.swift */; };
+		1DC02B4126B441E80032F4A0 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC02B4026B441E80032F4A0 /* Buttons.swift */; };
 		1DC7054826B05DAD005F4AFF /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC7054726B05DAD005F4AFF /* RingView.swift */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +94,7 @@
 		1DAD63CC26ADBA80006665AC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		1DAD63CE26ADC4AC006665AC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1DAE1A0126AF0B6C00E358E0 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		1DC02B4026B441E80032F4A0 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		1DC7054726B05DAD005F4AFF /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +145,7 @@
 				1D65F3CE26AF148A00B97CBB /* UpdateDetail.swift */,
 				1DAE1A0126AF0B6C00E358E0 /* UpdateList.swift */,
 				1D65F3D026AF169A00B97CBB /* UpdateStore.swift */,
+				1DC02B4026B441E80032F4A0 /* Buttons.swift */,
 				1D199DF226AD6950004125C3 /* Assets.xcassets */,
 				1D4E46FA26B1ADDC00E305C2 /* Work_Sans */,
 				1D199DF726AD6950004125C3 /* Info.plist */,
@@ -296,6 +299,7 @@
 				1D5D4D8926B1B89C008321AB /* CourseList.swift in Sources */,
 				1D199DF126AD694F004125C3 /* ContentView.swift in Sources */,
 				1DAD63CB26ADB290006665AC /* MenuView.swift in Sources */,
+				1DC02B4126B441E80032F4A0 /* Buttons.swift in Sources */,
 				1D5ABF2226B309F100836FB5 /* Data.swift in Sources */,
 				1DAE1A0226AF0B6C00E358E0 /* UpdateList.swift in Sources */,
 				1D65F3D126AF169A00B97CBB /* UpdateStore.swift in Sources */,

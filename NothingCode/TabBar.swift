@@ -18,6 +18,11 @@ struct TabBar: View {
                 Image(systemName: "rectangle.stack.fill")
                 Text("Courses")
             }
+            
+            Buttons().tabItem {
+                Image(systemName: "rectangle.stack.fill")
+                Text("Buttons")
+            }
         }
         .edgesIgnoringSafeArea(.top)
     }
