@@ -215,7 +215,7 @@ struct BottomView: View {
                         .lineSpacing(4)
                 }
                 .padding(20)
-                .background(Color.white)
+                .background(Color("background3"))
                 .cornerRadius(20)
                 .shadow(color: Color.black.opacity(0.2), radius: 20, x: 0, y: 10)
                 
@@ -228,7 +228,8 @@ struct BottomView: View {
         .padding(.top,8)
         .padding(.horizontal, 20)
         .frame(maxWidth: .infinity)
-        .background(Color.white)
+//        .background(Color.white)
+        .background(BlurView(style: .systemThinMaterial)) // 使用自定义模糊
         .cornerRadius(30)
         .shadow(radius: 20)
     }

@@ -33,6 +33,11 @@
 		1D4E472526B1ADDC00E305C2 /* WorkSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D4E470F26B1ADDC00E305C2 /* WorkSans-Italic-VariableFont_wght.ttf */; };
 		1D4E472626B1ADDC00E305C2 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D4E471026B1ADDC00E305C2 /* OFL.txt */; };
 		1D4E472726B1ADDC00E305C2 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D4E471126B1ADDC00E305C2 /* README.txt */; };
+		1D5ABF2026B3059600836FB5 /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ABF1F26B3059600836FB5 /* CourseDetail.swift */; };
+		1D5ABF2226B309F100836FB5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ABF2126B309F100836FB5 /* Data.swift */; };
+		1D5ABF2426B30A2600836FB5 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ABF2326B30A2600836FB5 /* PostList.swift */; };
+		1D5ABF2626B30A8600836FB5 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ABF2526B30A8600836FB5 /* DataStore.swift */; };
+		1D5ABF2826B30D9A00836FB5 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ABF2726B30D9A00836FB5 /* BlurView.swift */; };
 		1D5D4D8926B1B89C008321AB /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D4D8826B1B89C008321AB /* CourseList.swift */; };
 		1D65F3CF26AF148A00B97CBB /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D65F3CE26AF148A00B97CBB /* UpdateDetail.swift */; };
 		1D65F3D126AF169A00B97CBB /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D65F3D026AF169A00B97CBB /* UpdateStore.swift */; };
@@ -74,6 +79,11 @@
 		1D4E470F26B1ADDC00E305C2 /* WorkSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		1D4E471026B1ADDC00E305C2 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		1D4E471126B1ADDC00E305C2 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		1D5ABF1F26B3059600836FB5 /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
+		1D5ABF2126B309F100836FB5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		1D5ABF2326B30A2600836FB5 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		1D5ABF2526B30A8600836FB5 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		1D5ABF2726B30D9A00836FB5 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		1D5D4D8826B1B89C008321AB /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		1D65F3CE26AF148A00B97CBB /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
 		1D65F3D026AF169A00B97CBB /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
@@ -121,10 +131,15 @@
 				1DAD63CA26ADB290006665AC /* MenuView.swift */,
 				1DAD63CC26ADBA80006665AC /* Home.swift */,
 				1D5D4D8826B1B89C008321AB /* CourseList.swift */,
+				1D5ABF2126B309F100836FB5 /* Data.swift */,
+				1D5ABF2326B30A2600836FB5 /* PostList.swift */,
+				1D5ABF2526B30A8600836FB5 /* DataStore.swift */,
+				1D5ABF1F26B3059600836FB5 /* CourseDetail.swift */,
 				1DAD63CE26ADC4AC006665AC /* HomeView.swift */,
 				1DA8196326B1A99400F9519E /* Modifiers.swift */,
 				1DC7054726B05DAD005F4AFF /* RingView.swift */,
 				1D65F3D226AF1A3A00B97CBB /* TabBar.swift */,
+				1D5ABF2726B30D9A00836FB5 /* BlurView.swift */,
 				1D65F3CE26AF148A00B97CBB /* UpdateDetail.swift */,
 				1DAE1A0126AF0B6C00E358E0 /* UpdateList.swift */,
 				1D65F3D026AF169A00B97CBB /* UpdateStore.swift */,
@@ -273,15 +288,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DC7054826B05DAD005F4AFF /* RingView.swift in Sources */,
+				1D5ABF2626B30A8600836FB5 /* DataStore.swift in Sources */,
+				1D5ABF2426B30A2600836FB5 /* PostList.swift in Sources */,
 				1DA8196426B1A99400F9519E /* Modifiers.swift in Sources */,
 				1D65F3D326AF1A3A00B97CBB /* TabBar.swift in Sources */,
 				1D65F3CF26AF148A00B97CBB /* UpdateDetail.swift in Sources */,
 				1D5D4D8926B1B89C008321AB /* CourseList.swift in Sources */,
 				1D199DF126AD694F004125C3 /* ContentView.swift in Sources */,
 				1DAD63CB26ADB290006665AC /* MenuView.swift in Sources */,
+				1D5ABF2226B309F100836FB5 /* Data.swift in Sources */,
 				1DAE1A0226AF0B6C00E358E0 /* UpdateList.swift in Sources */,
 				1D65F3D126AF169A00B97CBB /* UpdateStore.swift in Sources */,
 				1DAD63CD26ADBA80006665AC /* Home.swift in Sources */,
+				1D5ABF2826B30D9A00836FB5 /* BlurView.swift in Sources */,
+				1D5ABF2026B3059600836FB5 /* CourseDetail.swift in Sources */,
 				1DAD63CF26ADC4AC006665AC /* HomeView.swift in Sources */,
 				1D199DEF26AD694F004125C3 /* NothingCodeApp.swift in Sources */,
 			);

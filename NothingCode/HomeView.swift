@@ -26,10 +26,11 @@ struct HomeView: View {
                     
                     Button(action: { self.showUpdate.toggle() }) {
                         Image(systemName: "bell")
-                            .renderingMode(.original)
+//                            .renderingMode(.original)
+                            .foregroundColor(.primary)
                             .font(.system(size: 16 , weight: .medium))
                             .frame(width: 36, height: 36)
-                            .background(Color.white)
+                            .background(Color("background3"))
                             .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                             // 双重投影 相当于现实生活中两个光源
                             .shadow(color: Color.black.opacity(0.1), radius: 1, x: 0, y: 1)
@@ -165,7 +166,7 @@ struct WatchRingView: View {
                 
             }
             .padding(8)
-            .background(Color.white)
+            .background(Color("background3"))
             .cornerRadius(20)
             .modifier(ShadowModifier())// 自定义修饰符号
             
@@ -175,7 +176,7 @@ struct WatchRingView: View {
                 
             }
             .padding(8)
-            .background(Color.white)
+            .background(Color("background3"))
             .cornerRadius(20)
             .modifier(ShadowModifier())
             
@@ -184,7 +185,7 @@ struct WatchRingView: View {
                 
             }
             .padding(8)
-            .background(Color.white)
+            .background(Color("background3"))
             .cornerRadius(20)
             .modifier(ShadowModifier())
         }
